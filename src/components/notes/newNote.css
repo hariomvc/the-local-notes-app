@@ -1,0 +1,37 @@
+.NewNote__Container{
+    margin: 2em auto;
+    width: 60%;
+    height: auto;
+    border: 1px solid #dedede;
+    /* border-radius: 1em; */
+}
+
+.NewNote__input--title{
+    transition: all ease-in-out 1s !important;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin: 1em 5% 0 5%;
+    height: 2em;
+    font-size: 1.6em;
+}
+
+.NewNote__input--content{
+    transition: all ease-in-out 1s !important;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 1.4em;
+    margin: 2em 5%;
+    font-size: 1.4em;
+}
+
+.NewNote__add{
+    float: right;
+    transform: translateY(-50%) translateX(-100%) scale(1.2);
+    border-radius: 100%;
+    padding: 0.5em;
+    text-align: center;
+    justify-items: center;
+    background-color: #2196F3;
+}

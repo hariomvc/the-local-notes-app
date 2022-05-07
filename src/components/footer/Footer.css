@@ -1,0 +1,10 @@
+.footer--container{
+    text-align: center;
+    color: #1f1f1f;
+    background-color: #eaeaea;
+    padding: 1em;
+}
+
+.footer--container a{
+    color: #1f1f1f;
+}

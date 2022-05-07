@@ -1,0 +1,43 @@
+.notes--grid{
+    margin: 2em 10vw;
+}
+
+.note--box{
+    border: 1px solid #cdcdcd;
+    border-radius: 1em;
+    padding: 1em;
+    height: max-content;
+    margin-bottom: 2em;
+}
+
+.note--buttons{
+    display: block;
+    text-align: end;
+}
+
+.note--title{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.note--content{
+    word-break: break-all;
+    white-space: pre-wrap;
+    -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* my-masonry */
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -2em; /* gutter size offset */
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 2em; /* gutter size */
+    background-clip: padding-box;
+  }
